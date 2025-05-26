@@ -59,3 +59,11 @@ int Calculator::random(int min, int max)
 {
     return min + rand() % (max - min + 1);
 }
+
+int power(int base, int exponent) {
+    int result;
+    for (int i = 0; i < exponent; ++i) {
+        result *= base;
+    }
+    return result;
+}
