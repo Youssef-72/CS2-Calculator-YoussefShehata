@@ -11,6 +11,7 @@ public:
     int GCD(int a, int b);
     int LCM(int a, int b);
     int random(int min, int max);
+    int power(int base, int exponent);
 };
 
 #endif // CALCULATOR_H
